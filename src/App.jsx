@@ -9,13 +9,14 @@ function App() {
   return (
     <>
     <div className="App">
-      <h1> LAB | React Training</h1>
-      <LikeButton />
-     <Counter />
-     <ClickablePicture />
-     <Dice />
-    </div> 
-    
+     <h1> LAB | React Training</h1>
+      <div className="components-container">
+        <LikeButton />
+       <Counter />
+       <ClickablePicture />
+       <Dice />
+      </div> 
+    </div>
     </>
   );
 }
